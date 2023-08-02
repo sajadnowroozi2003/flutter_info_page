@@ -35,95 +35,67 @@ class ElementsBottom1 extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            Row(
-              children: [
-                Icon(
-                  Icons.ad_units,
-                  color: Colors.blue.shade300,
+            ListTile(
+              leading: Icon(
+                Icons.ad_units,
+                color: Colors.blue.shade300,
+              ),
+              title: Text(
+
+                'Mobile',
+                style: TextStyle(
+                    color: Colors.blue.shade300,
+                    fontWeight: FontWeight.bold,
+                    fontSize: 17),
+              ),
+              subtitle: Text(
+                '+93 728 754 735',
+                style: TextStyle(
+                  color: Colors.black,
+                  fontSize: 15,
                 ),
-                SizedBox(
-                  width: 20,
-                ),
-                Column(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      'Mobile',
-                      style: TextStyle(
-                          color: Colors.blue.shade300,
-                          fontWeight: FontWeight.bold,
-                          fontSize: 17),
-                    ),
-                    Text(
-                      '+93 728 754 735',
-                      style: TextStyle(
-                        fontSize: 15,
-                      ),
-                    ),
-                  ],
-                )
-              ],
+              ),
             ),
-            Row(
-              children: [
-                Icon(
-                  Icons.phone,
-                  color: Colors.blue.shade300,
+            ListTile(
+              leading:Icon(
+                Icons.phone,
+                color: Colors.blue.shade300,
+              ),
+              title: Text(
+                'Work',
+                style: TextStyle(
+                    color: Colors.blue.shade300,
+                    fontWeight: FontWeight.bold,
+                    fontSize: 17),
+              ),
+
+              subtitle: Text(
+                '+93 728 754 735',
+                style: TextStyle(
+                  color: Colors.black,
+                  fontSize: 15,
                 ),
-                SizedBox(
-                  width: 20,
-                ),
-                Column(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      'Work',
-                      style: TextStyle(
-                          color: Colors.blue.shade300,
-                          fontWeight: FontWeight.bold,
-                          fontSize: 17),
-                    ),
-                    Text(
-                      '+93 728 754 735',
-                      style: TextStyle(
-                        fontSize: 15,
-                      ),
-                    ),
-                  ],
-                )
-              ],
+              ),
             ),
-            Row(
-              children: [
-                Icon(
-                  Icons.email,
-                  color: Colors.blue.shade300,
+            ListTile(
+              leading: Icon(
+                Icons.email,
+                color: Colors.blue.shade300,
+              ),
+              title:  Text(
+                'Email',
+                style: TextStyle(
+                    color: Colors.blue.shade300,
+                    fontWeight: FontWeight.bold,
+                    fontSize: 17),
+              ),
+              subtitle:  Text(
+                'sajad.nowroozi5442@gmail.com',
+                style: TextStyle(
+                  color: Colors.black,
+                  fontSize: 15,
                 ),
-                SizedBox(
-                  width: 20,
-                ),
-                Column(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      'Email',
-                      style: TextStyle(
-                          color: Colors.blue.shade300,
-                          fontWeight: FontWeight.bold,
-                          fontSize: 17),
-                    ),
-                    Text(
-                      'sajad.nowroozi5442@gmail.com',
-                      style: TextStyle(
-                        fontSize: 15,
-                      ),
-                    ),
-                  ],
-                )
-              ],
+              ),
             ),
           ],
         ),
